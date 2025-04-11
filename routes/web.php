@@ -18,3 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/',[LoginController::class,'login_page'])->name('login_page');
+<h1>hh</h1>
